@@ -167,8 +167,8 @@ numpy
    First, clone the repository to your local machine.
 
    ```bash
-   git clone https://github.com/SrishtiTurki/Stock-Prediction.git
-   cd Stock-Prediction
+   git clone https://github.com/SrishtiTurki/Stock-Web-Scraping-Prediction/blob/main/Predicting_Stocks.ipynb
+   cd SPredicting_Stock
    ```
 
 2. **Install Dependencies**:
@@ -188,7 +188,7 @@ numpy
    After setting up everything, run the script using:
 
    ```bash
-   python stock_prediction.py
+   python Predicting_Stock.py
    ```
 
    This will:
