@@ -128,3 +128,73 @@ Do you want to fetch the next 10 posts? (yes/no): yes
 
 - **Missing `.env` file**: Ensure that you've created and populated the `.env` file with your Reddit API credentials.
 - **API rate limits**: If you encounter issues with API rate limits, make sure to respect Reddit's API usage policies, or try to limit the number of requests made in a short time.
+
+
+# Stock Price Prediction Model
+This repository contains a machine learning model built to predict stock price volatility using various technical features of the National Stock Exchange of India Ltd (NSE). The model employs a Random Forest Regressor to predict the stock price changes (volatility) based on historical stock data.
+## Dependencies
+
+To run this stock prediction model, you'll need to install the following Python libraries:
+
+- **pandas**: For data manipulation and analysis.
+- **matplotlib**: For creating visualizations.
+- **seaborn**: For enhanced data visualizations.
+- **scikit-learn**: For machine learning tasks like data splitting, model building, and evaluation.
+- **scipy**: For statistical operations (skewness).
+- **numpy**: For numerical computations.
+
+To install all dependencies, you can use the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+### `requirements.txt`
+
+```txt
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+numpy
+```
+
+## How to Run
+
+1. **Clone the Repository**:
+   
+   First, clone the repository to your local machine.
+
+   ```bash
+   git clone https://github.com/SrishtiTurki/Stock-Prediction.git
+   cd Stock-Prediction
+   ```
+
+2. **Install Dependencies**:
+   
+   Make sure all required dependencies are installed by running:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Download Data**:
+   
+   The dataset is loaded directly in the script from GitHub. If you prefer to manually download the data, save it as `National_Stock_Exchange_of_India_Ltd.csv` in the project directory.
+
+4. **Run the Script**:
+   
+   After setting up everything, run the script using:
+
+   ```bash
+   python stock_prediction.py
+   ```
+
+   This will:
+   - Load the data
+   - Perform data preprocessing
+   - Train the Random Forest model
+   - Display evaluation metrics such as R² score.
+
+---
