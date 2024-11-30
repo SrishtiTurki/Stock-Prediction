@@ -9,7 +9,7 @@ This project allows you to scrape Reddit data using the PRAW (Python Reddit API 
 Clone this repository to your local machine using the following command:
 
 ```bash
-git [clone https://github.com/SrishtiTurki/Stock-Web-Scraping-Prediction/blob/main/RedditWebScraping.py]
+git clone https://github.com/SrishtiTurki/Stock-Web-Scraping-Prediction/blob/main/RedditWebScraping.py
 ```
 
 Navigate to the project directory:
