@@ -9,13 +9,13 @@ This project allows you to scrape Reddit data using the PRAW (Python Reddit API 
 Clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/yourusername/webscraping-reddit.git
+git clone https://github.com/SrishtiTurki/Stock-Web-Scraping-Prediction/blob/main/RedditWebScraping.py
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd webscraping-reddit
+cd RedditWebScraping
 ```
 
 ### Step 2: Set Up Your `.env` File
